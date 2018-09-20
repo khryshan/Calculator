@@ -1,7 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import Application from './components/Application';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('application'));
+// Styles
+import './assets/Application.css';
+
+
+ReactDOM.render(<Application />, document.getElementById('application'));
 registerServiceWorker();
